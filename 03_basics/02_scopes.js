@@ -45,7 +45,8 @@ function addone(num){
 
 
 
-addTwo(5)
-const addTwo = function(num){
+addTwo(5) 
+
+const addTwo = function(num){  // hoisting 
     return num + 2
 } 
