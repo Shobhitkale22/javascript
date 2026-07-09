@@ -38,7 +38,7 @@ if (score> 100){
  
  if (balance<500) {
      //console.log("less than 500") }
-
+ }
      else if (balance<750){
         //console.log("less than 750")
 
@@ -48,6 +48,20 @@ if (score> 100){
        // console.log("less than 750")
      }
      else {
-     //   console.log("less than 1200")
+     //  console.log("less than 1200")
 
+     }
+
+     const userloggedin = true 
+     const debitCard = true 
+     const loggedinfromgoogle = false
+     const loggedinfromemail = true 
+
+
+     if (userloggedin && debitCard){
+      console.log("allow to buy course ")
+     }
+
+     if(loggedinfromemail||loggedinfromgoogle){  // u can check for multiple user also or activity 
+      console.log("user logged in")
      }
