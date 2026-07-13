@@ -17,7 +17,7 @@ while(arr < myarray.length){
 let score = 1
 do {
 
-console.log(`score is ${score}`);
+console.log(`score is ${score}`);e
 score++
 } while(score <= 10)
 
